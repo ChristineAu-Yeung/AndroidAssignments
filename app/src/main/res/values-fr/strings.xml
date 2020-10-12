@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Affectation 2</string>
+    <string name="app_name">Android Affectation</string>
     <string name="hello_message">Bonjour le monde!</string>
     <string name="ButtonText">Je suis un bouton</string>
     <string name="hint">Identifiant</string>
@@ -9,4 +9,10 @@
     <string name="Switch">Qu\'est-ce que cela fait?</string>
     <string name="checkbox">Case à cocher</string>
     <string name="radioButton">Bouton radio</string>
+    <string name="loginButton">S\'identifier</string>
+    <string name="dialog">Voulez-vous terminer l\'activité principale?</string>
+    <string name="ok">D\'accord</string>
+    <string name="cancel">Annuler</string>
+    <string name="switchon">L\'interrupteur est allumé</string>
+    <string name="switchoff">L\'interrupteur est éteint</string>
 </resources>

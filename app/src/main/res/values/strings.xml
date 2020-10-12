@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Assignment 2</string>
+    <string name="app_name">Android Assignment</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
     <string name="hint">login name</string>
@@ -8,4 +8,10 @@
     <string name="Switch">What does this do?</string>
     <string name="checkbox">Checkbox</string>
     <string name="radioButton">Radio Button</string>
+    <string name="loginButton">Login</string>
+    <string name="dialog">Do you want to finish the main activity?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="switchon">Switch is on</string>
+    <string name="switchoff">Switch is off</string>
 </resources>

@@ -7,17 +7,18 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="@string/login" />
 
     <EditText
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint"
-        android:inputType="textEmailAddress"
-        android:importantForAutofill="no"/>
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:layout_width="match_parent"
@@ -26,8 +27,15 @@
     </TextView>
 
     <EditText
+        android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:importantForAutofill="no"/>
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginButton" />
 </LinearLayout>
