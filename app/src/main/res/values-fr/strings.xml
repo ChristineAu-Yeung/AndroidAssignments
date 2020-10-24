@@ -15,4 +15,6 @@
     <string name="cancel">Annuler</string>
     <string name="switchon">L\'interrupteur est allumé</string>
     <string name="switchoff">L\'interrupteur est éteint</string>
+    <string name="startchat">Démarrer la discussion</string>
+    <string name="send">Envoyer</string>
 </resources>

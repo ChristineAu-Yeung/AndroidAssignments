@@ -14,4 +14,6 @@
     <string name="cancel">Cancel</string>
     <string name="switchon">Switch is on</string>
     <string name="switchoff">Switch is off</string>
+    <string name="startchat">Start Chat</string>
+    <string name="send">Send</string>
 </resources>
