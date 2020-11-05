@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_one"
+        android:title="@string/choiceone"
+        android:icon="@drawable/ic_cupcake"
+        android:orderInCategory="0"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/action_two"
+        android:title="@string/choicetwo"
+        android:icon="@drawable/ic_cinnamon_roll"
+        android:orderInCategory="1"
+        app:showAsAction="always">
+    </item>
+
+    <item android:id="@+id/action_three"
+        android:title="@string/choicethree"
+        android:icon="@drawable/ic_donut"
+        android:orderInCategory="2"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/aboutMenuItem"
+        android:title="@string/about"
+        app:showAsAction="never">
+    </item>
+
+</menu>

@@ -17,4 +17,11 @@
     <string name="switchoff">L\'interrupteur est éteint</string>
     <string name="startchat">Démarrer la discussion</string>
     <string name="send">Envoyer</string>
+    <string name="choiceone">Choix 1</string>
+    <string name="choicetwo">Choix 2</string>
+    <string name="choicethree">Choix 3</string>
+    <string name="about">Sur</string>
+    <string name="testtoolbar">Barre d\'outils de test</string>
+    <string name="goback">Voulez-vous y retourner?</string>
+    <string name="sendmessage">Envoyer le message</string>
 </resources>

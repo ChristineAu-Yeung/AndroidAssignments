@@ -16,4 +16,11 @@
     <string name="switchoff">Switch is off</string>
     <string name="startchat">Start Chat</string>
     <string name="send">Send</string>
+    <string name="choiceone">Choice 1</string>
+    <string name="choicetwo">Choice 2</string>
+    <string name="choicethree">Choice 3</string>
+    <string name="about">About</string>
+    <string name="testtoolbar">Test Toolbar</string>
+    <string name="goback">Do you want to go back?</string>
+    <string name="sendmessage">Send Message</string>
 </resources>
