@@ -24,4 +24,10 @@
     <string name="testtoolbar">Barre d\'outils de test</string>
     <string name="goback">Voulez-vous y retourner?</string>
     <string name="sendmessage">Envoyer le message</string>
+    <string name="weatherbutton">Prévisions météorologiques</string>
+    <string name="currenttemp">Température actuelle</string>
+    <string name="mintemp">Température minimale</string>
+    <string name="maxtemp">Température maximale</string>
+    <string name="city">Ville</string>
+    <string-array name="cities"/>
 </resources>

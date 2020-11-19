@@ -13,10 +13,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+
+
 public class MainActivity extends AppCompatActivity {
 
     protected static final String ACTIVITY_NAME = "MainActivity";
-    Button button, startButton, testToolbarButton;
+    Button button, startButton, testToolbarButton, weatherButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
                 Log.i(ACTIVITY_NAME,"User clicked Start Chat");
                 Intent intent = new Intent(MainActivity.this, TestToolbar.class);
                 startActivity(intent);
+            }
+        });
+        // A3P2
+        weatherButton = (Button) findViewById(R.id.weatherButton);
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME,"User clicked Weather Button");
+                Intent intent = new Intent(MainActivity.this, WeatherForecastActivity.class);
+                startActivityForResult(intent, 50);
             }
         });
     }
@@ -82,3 +101,4 @@ public class MainActivity extends AppCompatActivity {
         Log.i(ACTIVITY_NAME, "In onDestroy()");
     }
 }
+
